@@ -1,0 +1,26 @@
+.cabecalho {
+    padding-bottom: 3rem;
+    text-align: center;
+    margin: 5rem 1.5rem 0 1.5rem;
+}
+
+.cabecalho__titulo {
+    font-size: 25px;
+    font-weight: 200;
+    color: var(--azul_escuro);
+    padding-bottom: .3rem;
+}
+
+.cabecalho__subtitulo {
+    font-size: 25px;
+    font-size: 600;
+    color: var(--azul_escuro);
+    padding-bottom: .5rem;
+}
+
+.cabecalho__descricao {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+

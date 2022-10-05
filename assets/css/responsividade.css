@@ -1,0 +1,44 @@
+@media screen and (min-width: 700px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .cabecalho {
+        width: 600px;
+        margin: 0;
+    }
+
+    .cabecalho__titulo, 
+    .cabecalho__subtitulo {
+        font-size: 40px;
+    }
+
+    .cabecalho__descricao {
+        padding: 0 .5rem;
+    }
+
+    .corpo {
+        flex-direction: row;
+        align-items: center;
+        column-gap: 2rem;
+        margin: 0;
+    }
+
+    .container {
+        row-gap: 2rem;
+    }
+
+    .corpo__card {
+        width: 370px;
+        height: 250px;
+        transition: .3s;
+    }
+
+    .corpo__card:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+}

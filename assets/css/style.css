@@ -1,0 +1,26 @@
+@import url('cabecalho.css');
+@import url('corpo.css');
+@import url('responsividade.css');
+
+:root {
+    --azul: hsl(212, 86%, 64%);
+    --azul_escuro: hsl(234, 12%, 34%);
+    --ciano: hsl(180, 62%, 55%);
+    --cinza: hsl(229, 6%, 66%);
+    --cinza_claro: hsl(0, 0%, 98%);
+    --branco: hsl(0, 0%, 100%);
+    --laranja: hsl(34, 97%, 64%);
+    --vermelho: hsl(0, 78%, 62%);
+
+    --fonte: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cinza_claro);
+    font-family: var(--fonte);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}

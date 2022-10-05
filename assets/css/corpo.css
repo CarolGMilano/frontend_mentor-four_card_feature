@@ -1,0 +1,70 @@
+.corpo {
+    margin: 0 1.5rem 5rem 1.5rem;
+}
+
+.corpo,
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.corpo__card {
+    background-color: var(--branco);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .4rem;
+}
+
+.supervisor__card {
+    border-top: 5px solid var(--ciano);
+}
+
+.teamBuilder__card {
+    border-top: 5px solid var(--vermelho);
+}
+
+.karma__card {
+    border-top: 5px solid var(--laranja);
+}
+
+.calculator__card {
+    border-top: 5px solid var(--azul);
+}
+
+.card__titulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--azul_escuro);
+}
+
+.card__descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.card__imagem {
+    width: 100px;
+    height: 100px;
+    align-self: end;
+}
+
+.supervisor__imagem {
+    background: url("../img/icon-supervisor.svg") no-repeat center;
+}
+
+.teamBuilder__imagem {
+    background: url("../img/icon-team-builder.svg") no-repeat center;
+}
+
+.karma__imagem {
+    background: url("../img/icon-karma.svg") no-repeat center;
+}
+
+.calculator__imagem {
+    background: url("../img/icon-calculator.svg") no-repeat center;
+}
